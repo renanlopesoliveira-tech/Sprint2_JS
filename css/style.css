@@ -77,3 +77,94 @@ body.dark-theme {
     margin: 40px auto;
     padding: 0 20px;
 }
+.nome {
+    color: var(--color-blue);
+    font-size: 18px;
+}
+.hero-principal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.textos-esquerda {
+    width: 40%;
+    margin-right: 20px;
+    max-width: 520px;
+}
+.textos-esquerda h6 {
+    color: var(--color-dark-blue);
+    font-size: 18px;
+    margin-bottom: var(--spacing-sm);
+}
+.textos-esquerda h2 {
+    color: var(--color-dark);
+    font-size: 36px; 
+}   
+
+.hero-imagem img{
+    width: 400px;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: var(--color-blue);
+  color: var(--color-light);
+}
+.button-link {
+  display: inline-block;
+  padding: 15px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.cta-botoes .saiba {
+    color: var(--color-light);
+    background-color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+}
+.cta-botoes .saiba:hover {
+    background-color: var(--color-dark-blue);
+}
+.solucoes{
+    background-color: transparent;
+    color: var(--color-dark);
+    border: 2px solid var(--color-dark);
+}
+.solucoes:hover {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+.interacao {
+    padding: 80px 20px;
+    text-align: center;
+}
+.interacao-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: var(--card-light);
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+.interacao-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.interacao-status {
+    margin-top: 20px;
+    color: var(--text-dark);
+}
