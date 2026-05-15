@@ -189,7 +189,7 @@ body.dark-theme .hero-principal p {
 }
 body.dark-theme .saiba {
     background-color: #5e9ff7;
-    color: var(--text-light);
+    color: var(--text-dark);
     border-color: #5e9ff7;
 }
 body.dark-theme .solucoes {
@@ -211,6 +211,18 @@ body.dark-theme .navbar {
 body.dark-theme .navbar-logo,
 body.dark-theme .theme-btn {
     color: var(--text-light);
+}
+body.dark-theme .primeirocard,
+body.dark-theme .segundocard,
+body.dark-theme .terceirocard,
+body.dark-theme .quartocard {
+    background: var(--card-dark);
+}
+body.dark-theme .titulos-atuacao h2 {
+    color: var(--text-light);
+}
+body.dark-theme .titulos-atuacao h5 {
+    color: #aaa;
 }
 #areaAtuacao {
     display: flex;
@@ -256,7 +268,7 @@ body.dark-theme .theme-btn {
     flex: 1;
     min-width: 280px;
     max-width: 320px;
-    background: white;
+    background: var(--card-light);
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -281,13 +293,13 @@ body.dark-theme .theme-btn {
     padding: 20px 20px 10px;
     margin: 0;
     font-size: 1.35rem;
-    color: #222;
+    color: var(--text-dark);
 }
 
 .container p {
     padding: 0 20px 25px;
     margin: 0;
-    color: #555;
+    color: var(--text-dark);
     line-height: 1.6;
     font-size: 1rem;
 }
