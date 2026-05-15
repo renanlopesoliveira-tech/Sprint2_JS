@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Space Grotesk", sans-serif;
+    src: url(../font/SpaceGrotesk-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+:root{
+    --color-light: #f4f4f4;
+    --color-dark: #020f28;
+    --color-light-blue: #43a4ee;
+    --color-dark-blue: #245ca9;
+    --color-blue: #023c79;
+    --background-blue: #dae9ff;
+    --page-bg-light: #dae9ff;
+    --page-bg-dark: #081822;
+    --text-light: #f4f4f4;
+    --text-dark: #020f28;
+    --card-light: #ffffff;
+    --card-dark: #112039;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 30px;
+}
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: var(--color-light);
+}
+section{
+    height: 100dvh;
+}
+body {
+    background-color: var(--page-bg-light);
+    color: var(--text-dark);
+}
+body.dark-theme {
+    background-color: var(--page-bg-dark);
+    color: var(--text-light);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: var(--card-light);
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-logo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-blue);
+}
+.theme-btn {
+    border: none;
+    padding: 12px 22px;
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+    gap: 40px;               
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
